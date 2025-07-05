@@ -33,25 +33,25 @@ const Footer = () => (
       <div className="row align-items-center">
         <div className="col-md-7 col-lg-8">
           <p>© 2025 Prep.Edge. All Rights Reserved.
-            <a href="#" style={{textDecoration: 'none'}}>
+            <button style={{textDecoration: 'none', background: 'none', border: 'none', padding: 0, color: 'inherit', cursor: 'pointer'}}>
               <strong className="text-warning"></strong>
-            </a>
+            </button>
           </p>
         </div>
         <div className="col-md-5 col-lg-4">
           <div className="text-center text-md-right">
             <ul className="list-unstyled list-inline">
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm text-white" style={{fontSize: '23px'}}><i className="fab fa-facebook"></i></a>
+                <button className="btn-floating btn-sm text-white" style={{fontSize: '23px', background: 'none', border: 'none', padding: 0, cursor: 'pointer'}}><i className="fab fa-facebook"></i></button>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm text-white" style={{fontSize: '23px'}}><i className="fab fa-twitter"></i></a>
+                <button className="btn-floating btn-sm text-white" style={{fontSize: '23px', background: 'none', border: 'none', padding: 0, cursor: 'pointer'}}><i className="fab fa-twitter"></i></button>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm text-white" style={{fontSize: '23px'}}><i className="fab fa-instagram"></i></a>
+                <button className="btn-floating btn-sm text-white" style={{fontSize: '23px', background: 'none', border: 'none', padding: 0, cursor: 'pointer'}}><i className="fab fa-instagram"></i></button>
               </li>
               <li className="list-inline-item">
-                <a href="#" className="btn-floating btn-sm text-white" style={{fontSize: '23px'}}><i className="fab fa-linkedin"></i></a>
+                <button className="btn-floating btn-sm text-white" style={{fontSize: '23px', background: 'none', border: 'none', padding: 0, cursor: 'pointer'}}><i className="fab fa-linkedin"></i></button>
               </li>
             </ul>
           </div>

@@ -14,7 +14,6 @@ import ServicesPage from './pages/ServicesPage';
 import ResumePage from './pages/ResumePage';
 import InterviewPage from './pages/InterviewPage';
 import ATSPage from './pages/ATSPage';
-import ContactPage from './pages/ContactPage';
 import PlagiarismCheckerPage from './pages/PlagiarismCheckerPage';
 import FeedbackPage from './pages/FeedbackPage';
 import LoginPage from './pages/LoginPage';

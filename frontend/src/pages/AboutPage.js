@@ -11,7 +11,7 @@ const AboutPage = () => (
             <nav aria-label="breadcrumb">
               <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
                 <li className="breadcrumb-item"><a className="text-white" href="/">Home</a></li>
-                <li className="breadcrumb-item"><a className="text-white" href="#">Pages</a></li>
+                <li className="breadcrumb-item"><button className="text-white" style={{background:'none',border:'none',padding:0,cursor:'pointer'}}>Pages</button></li>
                 <li className="breadcrumb-item text-white active" aria-current="page">About Us</li>
               </ol>
             </nav>
