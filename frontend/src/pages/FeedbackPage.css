@@ -1,0 +1,104 @@
+/* FeedbackPage.css */
+
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 40px 20px;
+    background-color: #f0f2f5; /* Light gray background */
+}
+
+.feedback-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.feedback-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a2a46; /* Dark blue */
+    margin-bottom: 10px;
+}
+
+.feedback-subtitle {
+    font-size: 1.1rem;
+    color: #6c757d; /* Gray text */
+    margin-bottom: 30px;
+}
+
+.feedback-form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 8px;
+}
+
+.input-group .required {
+    color: #dc3545; /* Red for required fields */
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #007bff; /* Blue focus color */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+.btn-submit-feedback {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-submit-feedback:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+.btn-submit-feedback:disabled {
+    background-color: #a0c7ff;
+    cursor: not-allowed;
+}
+
+.feedback-success-message {
+    margin-top: 20px;
+    color: #28a745; /* Green for success */
+    font-weight: 600;
+}
+
+.feedback-error-message {
+    margin-top: 20px;
+    color: #dc3545; /* Red for errors */
+    font-weight: 600;
+} 

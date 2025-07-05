@@ -1,0 +1,156 @@
+/* Plagiarism Checker Page Styles */
+.plag-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plag-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.plag-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a2c4e;
+    margin-bottom: 0.5rem;
+}
+
+.plag-subtitle {
+    font-size: 1.1rem;
+    color: #6a788e;
+    margin-bottom: 2rem;
+}
+
+.plag-upload-box {
+    border: 2px dashed #dbe2ea;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.plag-upload-input {
+    display: none;
+}
+
+.plag-upload-label {
+    background-color: #f8fafc;
+    color: #4a5c7a;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.plag-upload-label:hover {
+    background-color: #e9eff5;
+}
+
+.btn-plag-check {
+    background: linear-gradient(45deg, #ef4444, #f87171);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.btn-plag-check:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-plag-check:hover:not(:disabled) {
+    box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);
+    transform: translateY(-2px);
+}
+
+.plag-error-message {
+    color: #b91c1c;
+    margin-top: 1rem;
+}
+
+/* Results Box */
+.plag-result-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.score-display {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.score-value {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ef4444;
+}
+
+.score-label {
+    display: block;
+    font-size: 1.2rem;
+    color: #4a5c7a;
+    margin-top: 0.25rem;
+}
+
+.details-section h4 {
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 1rem;
+}
+
+.details-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details-section li {
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details-section li a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.details-section li a:hover {
+    text-decoration: underline;
+}
+
+.no-matches {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #16a34a;
+    padding: 1rem;
+    background-color: #f0fdf4;
+    border-radius: 8px;
+} 

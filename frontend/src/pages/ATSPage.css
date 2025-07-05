@@ -1,0 +1,145 @@
+/* ATS Page General Styles */
+.ats-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top */
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ats-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2rem 3rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.ats-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1a2c4e;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.ats-subtitle {
+    font-size: 1.1rem;
+    color: #6a788e;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ats-input-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.ats-upload-box {
+    border: 2px dashed #dbe2ea;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.ats-upload-input {
+    display: none;
+}
+
+.ats-upload-label {
+    background-color: #f8fafc;
+    color: #4a5c7a;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.ats-upload-label:hover {
+    background-color: #e9eff5;
+}
+
+.ats-textarea {
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #dbe2ea;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.btn-calculate {
+    background: linear-gradient(45deg, #4f46e5, #8b5cf6);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.btn-calculate:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-calculate:hover:not(:disabled) {
+    box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+    transform: translateY(-2px);
+}
+
+.ats-error-message {
+    color: #ef4444;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Results Box */
+.ats-result-box {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.result-title {
+    font-size: 1.5rem;
+    color: #1a2c4e;
+    margin-bottom: 1rem;
+}
+
+.score-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#4f46e5, #8b5cf6, #4f46e5); /* Just a decorative gradient */
+    position: relative;
+}
+
+.score-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.result-feedback {
+    font-size: 1.1rem;
+    color: #4a5c7a;
+} 
